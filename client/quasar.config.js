@@ -42,7 +42,7 @@ export default defineConfig(( ctx ) => {
 
       vueRouterMode: 'history', // available values: 'hash', 'history'
       env: {
-        SERVER_URL: ctx.dev ? 'http://localhost:3000' : 'http://localhost:3000',
+        SERVER_URL: ctx.dev ? 'http://localhost:3000' : 'ec2-44-212-43-166.compute-1.amazonaws.com',
         CREATOR_NAME: 'Henning Seip',
         CREATOR_EMAIL: 'henning@candogram.com',
         LINKEDIN: 'https://www.linkedin.com/in/henningseip/'
